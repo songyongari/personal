@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --hidden-import=openpyxl --hidden-import=xlrd --hidden-import=tkinter --hidden-import=msoffcrypto process_orders_gui.py
